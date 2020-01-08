@@ -110,15 +110,14 @@ h4 {
     margin: 0 auto;
 }
 .column {
-    float: left;
     width: 33.33%;
-    padding-left: 10px;
+    margin-left: 30px;
   }
 .row::after {
         content: "";
         clear: both;
         display: table;
-        margin-left: 10px;
+        margin-left: 40px;
 }
 text1, text2, text3, text4, text5, {
     font-family: Arial, Helvetica, sans-serif;
