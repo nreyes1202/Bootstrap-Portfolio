@@ -100,7 +100,7 @@ h4 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-/*Images need to be aligned and text blocks need to be created*/
+/*text blocks need to be created*/
 .portfolio {
     position: relative;
     display: block;
@@ -112,7 +112,7 @@ h4 {
 .column {
     float: left;
     width: 33.33%;
-    padding: 5px;
+    padding-left: 10px;
   }
 .row::after {
         content: "";
