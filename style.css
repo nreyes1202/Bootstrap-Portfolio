@@ -1,23 +1,12 @@
 body {
    background-color: rgb(240, 231, 231);
    margin: 0;
-  }
+}
 .navbar {
     display: block;
     background-color: black;
     border-bottom: solid #cccccc;
     border-bottom-width:  medium;
-  }
-}
-ul {
-    list-style: none;
-    display: inline-block;
-    color: #777777;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-.header {
-    width: 960px;
-    margin: 0 auto;
 }
 h1, h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -25,23 +14,8 @@ h1, h2 {
 h1 {
     color: #ffffff;
     font-size: 25px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 50px;
-  }
-#name {
-    position: relative;
-    top: 0%;
-    margin-left: 0%;
-    display: block;
-    width: 200px;
-    height: 50px;
-    background-color:#4aaaa5;
 }
-#name h1 {
-    margin: 0;
-}
-#content {
+.container {
     position: relative;
     display: block;
     background-color: #ffffff;
@@ -71,10 +45,10 @@ main {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.footer {
-    width: 100%;
+.fixed-bottom {
+    
     display: block;
-    position: fixed;
+
     bottom: 0;
     background-color: #666666;
     border-top: solid 4px #4aaaa5;
