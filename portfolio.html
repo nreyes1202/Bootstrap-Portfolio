@@ -1,63 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <title>Basic Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    
-    <body>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <h1>Nilsen Reyes</h1>
-                <ul class="nav navbar-nav navbar-right"> 
-                    <li><a href="index.html">About Me</a></li>
-                    <li style="padding-left:1em"><a href="contact.html">Contact</a></listyle="padding-left:1em">
-                    <li style="padding-left:1em"><a href="portfolio.html">Portfolio</a></li>
-                </ul>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <title>Basic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <h1>Nilsen Reyes</h1>
+            <ul class="links">
+                <li><a href="index.html">About Me</a></li>
+                <li style="padding-left:1em"><a href="contact.html">Contact</a></listyle="padding-left:1em">
+                <li style="padding-left:1em"><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="inner-border"></div>
+            <div class="row">
+                <div class="column">
+                    <img src="images\hangman.jpeg" alt="hangman" width="150" height="150">
+                    <div class="text1">Hangman</div>
+                    </img>
                 </div>
-            </nav>
-            <main>
-                <div class="portfolio">
-                    <h2>Portfolio</h2>
-                    <div class="inner-border"></div>
-                    <div class="row">
-                        <div class="column">
-                            <img src="images\hangman.jpeg" alt="hangman" width="150" height="150">
-                            <div class="text1">Hangman</div>
-                            </img>
-                        </div>
-                        <div class="column">
-                            <img src="images\rpggame.jpeg" alt="rpg game" width="150" height="150">
-                            <div class="text2">RPG Game</div>
-                            </img>
-                        </div>
-                        <div class="column">
-                            <img src="images\triviagame.jpeg" alt="trivia game" width="150" height="150">
-                            <div class="text3">Trivia Game</div>
-                            </img>
-                        </div>
-                        <div class="column">
-                            <img src="images\rutgers.jpeg" alt="rutgers info widget" width="150" height="150">
-                            <div class="text4">Rutgers Info Widget</div>
-                            </img>
-                        </div>
-                        <div class="column">
-                            <img src="images\rockpaperscissors.jpeg" alt="rock paper scissors" width="150" height="150">
-                            <div class="text5">Rock Paper Scissors</div>
-                            </img>
-                        </div>
-                    </div>
-                </main>
-                <div class="fixed-bottom">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h6>Copyright &copy</h6>
-                        </div>
-                    </div>
+                <div class="column">
+                    <img src="images\rpggame.jpeg" alt="rpg game" width="150" height="150">
+                    <div class="text2">RPG Game</div>
+                    </img>
                 </div>
-    </body>
+                <div class="column">
+                    <img src="images\triviagame.jpeg" alt="trivia game" width="150" height="150">
+                    <div class="text3">Trivia Game</div>
+                    </img>
+                </div>
+                <div class="column">
+                    <img src="images\rutgers.jpeg" alt="rutgers info widget" width="150" height="150">
+                    <div class="text4">Rutgers Info Widget</div>
+                    </img>
+                </div>
+                <div class="column">
+                    <img src="images\rockpaperscissors.jpeg" alt="rock paper scissors" width="150" height="150">
+                    <div class="text5">Rock Paper Scissors</div>
+                    </img>
+                </div>
+            </div>
+    </main>
+    <div class="fixed-bottom">
+        <div class="row">
+            <div class="col-md-12">
+                <h6>Copyright &copy</h6>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
