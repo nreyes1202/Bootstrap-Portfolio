@@ -102,18 +102,16 @@ h4 {
     margin-bottom: 5px;
 }
 /*text blocks need to be created*/
-.portfolio {
+
+/*these next 2 classes are messing up the images*/
+.container {
     position: relative;
-    display: block;
     background-color: #ffffff;
     border: solid #dddddd;
     width: 960px;
     margin: 0 auto;
 }
-.column {
-    width: 33.33%;
-    margin-left: 30px;
-  }
+
 .row::after {
         content: "";
         clear: both;
