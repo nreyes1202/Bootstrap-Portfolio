@@ -67,18 +67,9 @@ h5 {
     color: #777777;
     margin: 5px 10px;
 }
-.namebox {
-    border: 1px solid #dddddd;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.messagebox {
-    border: 1px solid #dddddd;
-    padding: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+.contact-info
+.name-box, .email-box {
+    margin-bottom: 20px;
 }
 .button {
     background-color: #4aaaa5;
